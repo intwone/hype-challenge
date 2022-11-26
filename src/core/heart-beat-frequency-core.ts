@@ -2,7 +2,7 @@ import { Status } from '../enums/status-enum';
 import { HeartBeatFrequencyResponseProtocol } from '../protocols/hear-beat-information-protocol';
 
 export const heartRateBeatCalculator = (time: number): HeartBeatFrequencyResponseProtocol => {
-  if (time <= 0) return { status: Status.FAIL, output: 0 };
+  if (time <= 0 || !time) return { status: Status.FAIL, output: 0 };
   const output =
     -0.06366 +
     0.12613 * Math.cos(Math.PI * (time / 500)) +
