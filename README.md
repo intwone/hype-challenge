@@ -95,7 +95,7 @@ $ npm test
 ## Explicação da Arquitetura
 
 <div align="justify">
-  Um usuário irá se comunicar com o nosso dispositivo (HBM+). Essa iteração poderá ser realizado com o dispositivo conectado ao pulso do usuário para que seja realizada a leitura da frequência cardiáca do mesmo.
+  Um usuário irá se comunicar com o nosso dispositivo (HBM+). Essa interação poderá ser realizado com o dispositivo conectado ao pulso do usuário para que seja realizada a leitura da frequência cardiáca do mesmo.
   Esse dispositivo irá emitir um evento chamado de `heart_beat_information` onde irá conter o `tempo` em milisegundos, seguindo o formato abaixo:
 </div>
 
