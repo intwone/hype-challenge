@@ -4,7 +4,7 @@ services:
   app:
     build: .
     container_name: "api-hype"
-    command: sh -c "npm run build && npm run start"
+    command: sh -c "npm start"
     ports:
       - 5000:5000
 
