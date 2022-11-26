@@ -43,7 +43,7 @@ $ git clone https://github.com/intwone/hype-challenge.git
 2° - Subindo o container do Docker
 
 ```bash
-$ docker-compose up
+$ npm run up
 ```
 
 ### Não Utilizando o Docker:
