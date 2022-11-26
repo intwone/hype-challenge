@@ -1,3 +1,6 @@
+![workflow](https://github.com/intwone/hype-challenge/actions/workflows/ci.yml/badge.svg)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
+
 <h1 align="center">
     <h1 align="center">
       <img src="https://hypeempreendimentos.com.br/_next/image?url=https%3A%2F%2Fhype-cms-bucket.s3.sa-east-1.amazonaws.com%2Flogoescura_b4232a0d5e.webp&w=256&q=75" alt="hype" width="25%"/>
