@@ -1,8 +1,8 @@
 export interface HeartBeatInformationEventProtocol {
-  time: number;
+  time: number
 }
 
 export interface HeartBeatFrequencyResponseProtocol {
-  status: number;
-  output: number;
+  status: number
+  output: number
 }

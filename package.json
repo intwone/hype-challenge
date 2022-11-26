@@ -9,7 +9,9 @@
     "test": "jest",
     "build": "rimraf dist && tsc",
     "up": "npm run build && docker-compose up -d",
-    "down": "docker-compose down"
+    "down": "docker-compose down",
+    "lint:fix": "eslint \"**/*.{ts,tsx}\" --fix",
+    "lint": "eslint \"**/*.{ts,tsx}\""
   },
   "keywords": [],
   "author": "",
