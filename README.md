@@ -137,7 +137,7 @@ Formula:
 
 Apesar do projeto parecer "simples", o mesmo demanda bastante conhecimento técnico.\
 Como a ideia era que as informações da api trafegasse em tempo real, precisei pesquisar mais sobre o assunto para decidir qual tecnoligia iria utilizar para resolver o desafio.\
-Depois de várias pesquisas, decidi utilizar o protocolo websockets e com ele pude criar uma api que se comunica em tempo real.\
+Depois de várias pesquisas, decidi utilizar o protocolo websockets e com ele pude criar uma api que se comunica em tempo real.
 
 ### Principais desafios
 
