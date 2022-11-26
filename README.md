@@ -31,7 +31,7 @@ Para executar o projeto `COM` o Docker:
 1° - Clonando o projeto
 
 ```bash
-`$ git clone https://github.com/intwone/hype-challenge.git
+$ git clone https://github.com/intwone/hype-challenge.git
 ```
 
 ### Utilizando o Docker
