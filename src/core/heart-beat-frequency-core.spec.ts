@@ -7,4 +7,10 @@ describe('Heart Beat Frequency Core', () => {
     const sut = heartRateBeatCalculator(invalidTime);
     expect(sut).toEqual({ status: Status.FAIL, output: 0 });
   });
+
+  it('should return correct output when time is greater than zero', () => {
+    const validTime = 100;
+    const sut = heartRateBeatCalculator(validTime);
+    expect(sut).toEqual({ status: Status.SUCCESS, output: 0.11555378430782076 });
+  });
 });
